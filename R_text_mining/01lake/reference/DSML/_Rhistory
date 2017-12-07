@@ -1,0 +1,293 @@
+library(swirl
+)
+swirl()
+swirl()
+source('C:/Users/pecu6/Desktop/dstat.R', echo=TRUE)
+example("barplot")
+barplot(tN, col = gray.colors(20), log = "xy", cex.lab = 3)
+barplot(tN, col = gray.colors(20), log = "xy", cex.lab = 3)
+barplot(c(1:10), c(1:10), cex=3)
+barplot(c(1:10), c(1:10), cex.axis = 3)
+barplot(c(1:10), c(1:10), cex.axis = 3)
+barplot(tN, col = gray.colors(20), log = "xy", cex.axis = 3)
+barplot(tN, col = gray.colors(20), log = "xy", cex.name = 3)
+barplot(tN, col = gray.colors(20), log = "xy", cex.name = 3, cex.axis = 3)
+example("barplot")
+barplot(tN, col = gray.colors(20), log = "xy", cex.axis = 2, cex.names = 2)
+example("plot")
+0.12 * 0.6 * 100 + 0.12 * 0.8 * 100 + 48 + 78 * 0.4
+0.12 * 4 * 100
+5 * 0.12
+url.address       <-"https://cart.books.com.tw/member/login?url=http%3A%2F%2Fwww.books.com.tw%2F&loc=customer_003"
+pgsession <-html_session(url.address)
+library(rvest)
+install.packages("rvest")
+install.packages("rvest")
+library(rvest)# create a session
+install.packages("rvest")
+library(rvest)# create a session
+library(xml2)
+library(rvest)# create a session
+url.address       <-"https://cart.books.com.tw/member/login?url=http%3A%2F%2Fwww.books.com.tw%2F&loc=customer_003"
+pgsession <-html_session(url.address)
+pgsession
+pgform    <-html_form(pgsession)[[2]]       ## pull form from session
+url.address       <-"https://cart.books.com.tw/member/login"
+pgsession <-html_session(url.address)
+pgsession
+url.address <- "https://www.pharmgkb.org/sign-in-start.do"
+pgsession <-html_session(url.address)
+pgsession
+pgform    <-html_form(pgsession)[[2]]       ## pull form from session
+pgform
+url.address <-"https://cart.books.com.tw/member/login"
+pgsession <-html_session(url.address)
+pgsession
+pgsession$html
+pgsession$forward
+url.address <- "https://www.pharmgkb.org/sign-in-start.do"
+pgsession <-html_session(url.address)
+html_form(pgsession)
+url.address <-"https://cart.books.com.tw/member/login"
+pgsession <-html_session(url.address)
+html_form(pgsession)
+pgform    <-html_form(pgsession)[[1]]       ## pull form from session
+url.address <- "https://www.pharmgkb.org/sign-in-start.do"
+pgsession <-html_session(url.address)
+pgform    <-html_form(pgsession)[[2]]       ## pull form from session
+pgform
+install.packages("DiagrammeR")
+install.packages("mxnet")
+library(mxnet)
+library(MXNetR)
+install.packages("MXNetR")
+library(MXNetR)
+install.packages("MXNetR")
+install.packages("drat", repos = "https://cran.rstudio.com")
+drat::addRepo("dmlc")
+install.packages("mxnet")
+l = c(null,9,1)
+l = c(na,9,1)
+l = c(NULL,9,1)
+l
+is.na(l)
+l = c(NA,9,1)
+is.na(l)
+example(group_by)
+install.packages("dply")
+install.packages("dplyr")
+library(dplyr)
+install.packages("dplyr")
+install.packages("dplyr")
+source('C:/Users/pecu6/OneDrive/文件/GitHub/kaggledata/used-car.R', encoding = 'UTF-8', echo=TRUE)
+install.packages(dplyr)
+install.packages("dplyr")
+install.packages("dplyr")
+source('C:/Users/pecu6/OneDrive/文件/GitHub/kaggledata/used-car.R', encoding = 'UTF-8', echo=TRUE)
+install.packages("tidyverse")
+install.packages("C:/Users/pecu6/Desktop/tidyverse_1.1.1.zip", repos = NULL, type = "win.binary")
+source('C:/Users/pecu6/OneDrive/文件/GitHub/kaggledata/used-car.R', encoding = 'UTF-8', echo=TRUE)
+source('C:/Users/pecu6/OneDrive/文件/GitHub/kaggledata/used-car.R', encoding = 'UTF-8', echo=TRUE)
+install.packages("C:/Users/pecu6/Desktop/tidyverse_1.1.1.zip", repos = NULL, type = "win.binary")
+source('C:/Users/pecu6/OneDrive/文件/GitHub/kaggledata/used-car.R', encoding = 'UTF-8', echo=TRUE)
+source('C:/Users/pecu6/OneDrive/文件/GitHub/kaggledata/used-car.R', encoding = 'UTF-8', echo=TRUE)
+install.packages("dplyr")
+source('C:/Users/pecu6/OneDrive/文件/GitHub/kaggledata/used-car.R', encoding = 'UTF-8', echo=TRUE)
+install.packages("rcpp")
+install.packages("Rcpp")
+source('C:/Users/pecu6/OneDrive/文件/GitHub/kaggledata/used-car.R', encoding = 'UTF-8', echo=TRUE)
+source('C:/Users/pecu6/OneDrive/文件/GitHub/kaggledata/used-car.R', encoding = 'UTF-8', echo=TRUE)
+install.packages("Rcpp")
+source('C:/Users/pecu6/Desktop/teacher.r', echo=TRUE)
+source('C:/Users/pecu6/Desktop/teacher.r', echo=TRUE)
+sd(c(0,100))
+sd(c(50,50))
+setwd("C:/Users/pecu6/Desktop/Word2Vec")
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+data(longley)
+base <- lm(Employed~., longley)
+summary(base)
+fit <- step(base)
+summary(fit)
+predictions <- predict(fit, longley)
+mse <- mean((longley$Employed - predictions)^2)
+print(mse)
+View(longley)
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+install.packages("tidytext")
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+austen_bigrams
+View(austen_bigrams)
+austen_bigrams %>%
+count(bigram, sort = TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+View(doc.tfidf)
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+g <- ggbiplot(ir.pca, obs.scale = 1, var.scale = 1,
+groups = ir.species, ellipse = TRUE,
+circle = TRUE)
+install.packages("ggbiplot")
+library(devtools)
+install_github("vqv/ggbiplot")
+install.packages("devtools")
+install_github("vqv/ggbiplot")
+library(devtools)
+install_github("vqv/ggbiplot")
+library(ggbiplot)
+install_github("vqv", "ggbiplot")
+library(devtools)
+install_github("ggbiplot", "vqv")
+library(ggbiplot)
+library(scales)
+library(grid)
+library(ggbiplot)
+g <- ggbiplot(ir.pca, obs.scale = 1, var.scale = 1,
+groups = ir.species, ellipse = TRUE,
+circle = TRUE)
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal',
+legend.position = 'top')
+print(g)
+source('C:/Users/pecu6/Desktop/Word2Vec/PCA.R', echo=TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/PCA.R', echo=TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/PCA.R', echo=TRUE)
+library(devtools)
+source('C:/Users/pecu6/Desktop/Word2Vec/PCA.R', echo=TRUE)
+log.ir <- log(iris[, 1:4])
+View(log.ir)
+ir.pca <- prcomp(iris[,1:4],
+center = TRUE,
+scale. = TRUE)
+g <- ggbiplot(ir.pca, obs.scale = 1, var.scale = 1,
+groups = ir.species, ellipse = TRUE,
+circle = TRUE)
+library(devtools)
+install_github("ggbiplot", "vqv")
+library(scales)
+library(grid)
+library(ggbiplot)
+data(iris)
+ir.pca <- prcomp(iris[,1:4],
+center = TRUE,
+scale. = TRUE)
+ir.species <- iris[, 5]
+g <- ggbiplot(ir.pca, obs.scale = 1, var.scale = 1,
+groups = ir.species, ellipse = TRUE,
+circle = TRUE)
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal',
+legend.position = 'top')
+print(g)
+source('C:/Users/pecu6/Desktop/Word2Vec/PCA.R', echo=TRUE)
+source('MLDM.R')
+View(doc.tfidf)
+tfidf.pca <- prcomp(doc.tfidf)
+kmeansOut$cluster
+View(kmeansOut$cluster)
+kmeansOut$cluster[1]
+kmeansOut$cluster[2]
+as.data.frame(kmeansOut$cluster)
+View(as.data.frame(kmeansOut$cluster))
+tfidf.pca <- prcomp(doc.tfidf)
+tfidf.kmeans <- kmeansOut$cluster
+g <- ggbiplot(tfidf.pca, obs.scale = 1, var.scale = 1,
+groups = tfidf.kmeans, ellipse = TRUE,
+circle = TRUE)
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal',
+legend.position = 'top')
+print(g)
+ir.pca <- prcomp(iris[,1:4])
+ir.species <- iris[, 5]
+tfidf.kmeans <- as.factor(kmeansOut$cluster)
+g <- ggbiplot(tfidf.pca, obs.scale = 1, var.scale = 1,
+groups = tfidf.kmeans, ellipse = TRUE,
+circle = TRUE)
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal',
+legend.position = 'top')
+print(g)
+kmeansOut <- kmeans(doc.tfidf, 5, nstart = 20)
+tfidf.pca <- prcomp(doc.tfidf)
+tfidf.kmeans <- as.factor(kmeansOut$cluster)
+g <- ggbiplot(tfidf.pca, obs.scale = 1, var.scale = 1,
+groups = tfidf.kmeans, ellipse = TRUE,
+circle = TRUE)
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal',
+legend.position = 'top')
+print(g)
+tfidf.pca
+tfidf.pca$x
+tfidf.pca$rotation
+tfidf.pca$x$Terms
+tfidf.pca$x
+tfidf.pca$x[,1]
+tfidf.pca$x[[1]]
+doc.tfidf
+colnames(doc.tfidf)
+rownames(doc.tfidf)
+tfidf.pca$x
+tfidf.pca$x[1]
+tfidf.pca$x[2]
+tfidf.pca$x[1,1]
+tfidf.pca$x[1,:]
+tfidf.pca$x[,]
+g <- ggbiplot(tfidf.pca, obs.scale = 1, var.scale = 1,
+groups = tfidf.kmeans, ellipse = TRUE,
+circle = TRUE)
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal',
+legend.position = 'top')
+g <- g + geom_text(aes(x=tfidf.pca,
+y=tfidf.pca+0.1,
+label=rownames(doc.tfidf)))
+print(g)
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/DLTM.R', echo=TRUE)
+tfidf.kmeans <- as.factor(kmeansOut$cluster[1:500])
+g <- ggbiplot(tfidf.pca, obs.scale = 1, var.scale = 1,
+groups = tfidf.kmeans, ellipse = TRUE,
+circle = TRUE, labels = rownames(testTfidf))
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal',
+legend.position = 'top')
+print(g)
+testTfidf = doc.tfidf[1:50,]
+tfidf.pca <- prcomp(testTfidf)
+tfidf.kmeans <- as.factor(kmeansOut$cluster[1:50])
+g <- ggbiplot(tfidf.pca, obs.scale = 1, var.scale = 1,
+groups = tfidf.kmeans, ellipse = TRUE,
+circle = TRUE, labels = rownames(testTfidf))
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal',
+legend.position = 'top')
+print(g)
+testTfidf = doc.tfidf
+tfidf.pca <- prcomp(testTfidf)
+tfidf.kmeans <- as.factor(kmeansOut$cluster)
+g <- ggbiplot(tfidf.pca, obs.scale = 1, var.scale = 1,
+groups = tfidf.kmeans, ellipse = TRUE,
+circle = TRUE, labels = rownames(testTfidf))
+g <- g + scale_color_discrete(name = '')
+g <- g + theme(legend.direction = 'horizontal',
+legend.position = 'top')
+print(g)
+source('C:/Users/pecu6/Desktop/Word2Vec/SVM.R', echo=TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/SVM.R', echo=TRUE)
+install.packages("gmum.r")
+plot(x, col = y + 3, pch = 19)
+source('C:/Users/pecu6/Desktop/Word2Vec/SVM.R', echo=TRUE)
+dat = data.frame(x, y = as.factor(y))
+View(dat)
+source('C:/Users/pecu6/Desktop/Word2Vec/SVM.R', echo=TRUE)
+source('C:/Users/pecu6/Desktop/Word2Vec/SVM.R', echo=TRUE)
+plot(svmfit, dat)
+source('C:/Users/pecu6/Desktop/Word2Vec/SVM.R', echo=TRUE)
+grange = apply(x, 2, range)
+grange
+x
